@@ -1,0 +1,227 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container .black {
+  width: 1920px;
+  height: 40px;
+  background-color: black;
+  display: inline-block;
+}
+.container .black .header1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+.container .black .header1 .firstline {
+  font-size: 16px;
+  font-weight: bold;
+  color: #909090;
+  margin-left: 9px;
+}
+.container .black .header1 .photo {
+  width: 20px;
+  height: 20px;
+}
+.container .white {
+  width: 1920px;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.container .white .title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.container .white .list {
+  width: 600px;
+  height: 48px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .white .list .lst1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.container .white .list .photo2 {
+  width: 21px;
+  height: 20px;
+  margin-top: 15px;
+}
+.container .white .list .search2 {
+  width: 60px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #EBEBEB;
+  margin-left: 400%;
+}
+.container .img {
+  background-image: url("./images/WKND-image.png");
+  background-size: cover;
+  width: 1920px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.container .img .adventure {
+  width: 1400px;
+  height: 246px;
+  background-color: white;
+}
+.container .img .adventure .ptag1 {
+  font-size: 40px;
+  color: #202020;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+.container .img .adventure .ptag2 {
+  font-size: 20px;
+  color: #202020;
+  margin-left: 40px;
+}
+.container .img .adventure .yellow {
+  width: 154px;
+  height: 48px;
+  background-color: #FFEB00;
+  font-size: 10px;
+  padding: 14px 16px 14px 26px;
+  margin-left: 40px;
+  font-weight: bolder;
+}
+.container .img .newdiv {
+  width: 440px;
+  height: 440px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 16%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.container .img .newdiv .singup {
+  font-size: 26px;
+}
+.container .img .newdiv .inp1 {
+  width: 300px;
+  height: 50px;
+}
+.container .img .newdiv .newdiv2 {
+  width: 440px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .img .newdiv .inp2 {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+.container .img .newdiv .inp3 {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+.container .img .newdiv .btn {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #EBEBEB;
+}
+.container .gray {
+  width: 1200px;
+  height: 487px;
+  background-color: #F7F7F7;
+  margin-top: 7%;
+  margin-left: 20%;
+}
+.container .gray .gray2 {
+  width: 500px;
+  height: 487px;
+  overflow: hidden;
+  margin-left: 58.3%;
+}
+.container .gray .gray2 .move {
+  width: 500px;
+  height: 487px;
+  display: flex;
+  transition: 1s;
+}
+.container .gray .gray2 .move .pt1 {
+  width: 500px;
+  height: 487px;
+}
+.container .gray .txts {
+  width: 700px;
+  height: 487px;
+  margin-top: -40.5%;
+  margin-left: 5%;
+}
+.container .gray .txts .link {
+  color: #202020;
+}
+.container .gray .txts .line {
+  width: 84px;
+  border: 2px solid #FFEA00;
+  background-color: #FFEA00;
+  margin-bottom: 10px;
+}
+.container .gray .txts .article1 {
+  font-size: 36px;
+  margin-top: 5%;
+}
+.container .gray .txts .smth {
+  font-size: 24px;
+}
+.container .gray .txts .text {
+  font-size: 14px;
+}
+.container .gray .txts .yellow2 {
+  width: 200px;
+  height: 48px;
+  background-color: #FFEB00;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 39px 14px 60px;
+  margin-top: 17%;
+}
+.container .btns {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 80%;
+}
+.container .btns .left {
+  width: 20px;
+  height: 20px;
+}
+.container .btns .right {
+  width: 20px;
+  height: 20px;
+}
+.container .recent {
+  background-color: #EBEBEB;
+  width: 1920px;
+  height: 487px;
+}
+.container .recent .title3 {
+  font-size: 36px;
+}
+.container .recent .line2 {
+  width: 84px;
+  border: 2px solid #FFEA00;
+  background-color: #FFEA00;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

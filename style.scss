@@ -1,0 +1,372 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+    .black {
+        width: 1920px;
+        height: 40px;
+        background-color: black;
+        display: inline-block;
+
+
+        .header1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-left: 30%;
+
+
+
+            .firstline {
+                font-size: 16px;
+                font-weight: bold;
+                color: #909090;
+                margin-left: 9px;
+
+            }
+
+            .photo {
+                width: 20px;
+                height: 20px;
+
+            }
+        }
+
+
+    }
+
+    .white {
+        width: 1920px;
+        height: 160px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+
+        .title {
+            font-size: 48px;
+            font-weight: bolder;
+
+
+        }
+
+        .list {
+            width: 600px;
+            height: 48px;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .lst1 {
+                font-size: 14px;
+                font-weight: bold;
+
+                // margin-top: 10px;
+
+            }
+
+
+
+            .photo2 {
+                width: 21px;
+                height: 20px;
+                margin-top: 15px;
+
+
+            }
+
+            // .search1 {
+            //     width: 256px;
+            //     height: 48px;
+            //     margin-left: 300px;
+            //     margin-top: 10px;
+
+
+            .search2 {
+                width: 60px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                background-color: #EBEBEB;
+                margin-left: 400%;
+
+
+                // animation-name: search;
+                // animation-duration: 3s;
+                // position: absolute;
+
+                // @keyframes search {
+                //     from {
+                //         width: 256px;
+                //     }
+
+                //     to {
+                //         width: 60px;
+                //     }
+                // }
+
+
+            }
+
+
+
+        }
+
+    }
+
+    .img {
+        background-image: url('./images/WKND-image.png');
+        background-size: cover;
+        width: 1920px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+
+
+
+
+
+
+
+
+
+
+        .adventure {
+            width: 1400px;
+            height: 246px;
+            background-color: white;
+
+
+
+            .ptag1 {
+                font-size: 40px;
+                color: #202020;
+                margin-top: 14px;
+                margin-left: 40px;
+            }
+
+            .ptag2 {
+                font-size: 20px;
+                color: #202020;
+                margin-left: 40px;
+
+            }
+
+            .yellow {
+                width: 154px;
+                height: 48px;
+                background-color: #FFEB00;
+                font-size: 10px;
+                padding: 14px 16px 14px 26px;
+                margin-left: 40px;
+                font-weight: bolder;
+            }
+        }
+
+
+
+
+        .newdiv {
+            width: 440px;
+            height: 440px;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 16%;
+            // margin-left: -50%;
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+
+
+
+            .singup {
+                font-size: 26px;
+
+
+            }
+
+
+
+
+
+            .inp1 {
+                width: 300px;
+                height: 50px;
+
+
+
+            }
+
+            .newdiv2 {
+                width: 440px;
+                height: 400px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .inp2 {
+                width: 300px;
+                height: 50px;
+                margin-top: 20px;
+            }
+
+            .inp3 {
+                width: 300px;
+                height: 50px;
+                margin-top: 20px;
+            }
+
+            .btn {
+                width: 100px;
+                height: 50px;
+                font-size: 20px;
+                margin-top: 20px;
+                background-color: #EBEBEB;
+            }
+        }
+
+
+    }
+
+
+
+    .gray {
+        width: 1200px;
+        height: 487px;
+        background-color: #F7F7F7;
+        margin-top: 7%;
+        margin-left: 20%;
+
+        .gray2 {
+            width: 500px;
+            height: 487px;
+            overflow: hidden;
+            margin-left: 58.3%;
+
+            .move {
+                width: 500px;
+                height: 487px;
+                display: flex;
+
+
+
+                transition: 1s;
+
+                .pt1 {
+                    width: 500px;
+                    height: 487px;
+                }
+            }
+
+
+
+
+        }
+
+        .txts {
+            width: 700px;
+            height: 487px;
+
+            margin-top: -40.5%;
+            margin-left: 5%;
+
+            .link {
+                color: #202020;
+
+            }
+
+            .line {
+                width: 84px;
+                border: 2px solid #FFEA00;
+                background-color: #FFEA00;
+                margin-bottom: 10px;
+            }
+
+
+
+            .article1 {
+                font-size: 36px;
+                margin-top: 5%;
+            }
+
+            .smth {
+                font-size: 24px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+
+            .yellow2 {
+                width: 200px;
+                height: 48px;
+                background-color: #FFEB00;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 14px 39px 14px 60px;
+                margin-top: 17%;
+            }
+
+        }
+
+    }
+
+    .btns {
+        width: 50px;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 80%;
+
+
+
+
+
+
+
+
+
+        .left {
+            width: 20px;
+            height: 20px;
+
+
+
+        }
+
+        .right {
+            width: 20px;
+            height: 20px;
+
+
+
+        }
+    }
+
+    .recent {
+        background-color: #EBEBEB;
+        width: 1920px;
+        height: 487px;
+
+        .title3 {
+            font-size: 36px;
+        }
+
+        .line2 {
+            width: 84px;
+            border: 2px solid #FFEA00;
+            background-color: #FFEA00;
+            margin-bottom: 10px;
+        }
+
+    }
+}
