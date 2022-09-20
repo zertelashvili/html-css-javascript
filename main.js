@@ -123,7 +123,19 @@ left.addEventListener('click', function () {
 
 
 
-let box = document.querySelector('.yellow')
-let card = document.querySelector('.recent')
+// let box = document.querySelector('.yellow')
+// let card = document.querySelector('.recent')
 
+
+
+// let move2 = document.querySelector('.move2')
+// let index2 = 1;
+
+// let photomove = setInterval(function () {
+//     move2.style.transform = `translateX(-${500 * index2++}px)`
+
+
+//     console.log(index2, move2.style.transform)
+
+// }, 1000)
 
