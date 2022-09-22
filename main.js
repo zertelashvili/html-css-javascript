@@ -79,7 +79,7 @@ let ptag = document.querySelector('.article1')
 
 right.addEventListener('click', function () {
     move.style.transform = `translateX(-${500 * index}px)`
-    console.log(move.style.transform)
+
     index += 1
     if (index === 4) {
         move.style.transform = `translateX(-${0}px)`
@@ -95,14 +95,12 @@ right.addEventListener('click', function () {
     else if (index === 3) {
         ptag.innerHTML = 'Last Article'
     }
-    console.log(move.style.transform, index)
 })
 
 left.addEventListener('click', function () {
     if (index === 1) {
         move.style.transform = `translateX(-${1000}px)`
         index += 2
-        console.log(move.style.transform, index)
     }
     else {
         move.style.transform = `translateX(-${500 * (index - 2)}px)`
@@ -118,7 +116,6 @@ left.addEventListener('click', function () {
     else if (index === 3) {
         ptag.innerHTML = 'Last Article'
     }
-    console.log(move.style.transform, index)
 })
 
 
@@ -139,3 +136,127 @@ left.addEventListener('click', function () {
 
 // }, 1000)
 
+// let div00 = document.querySelector('.pt00')
+// let div01 = document.querySelector('.pt01')
+// let div02 = document.querySelector('.pt02')
+// let div03 = document.querySelector('.pt03')
+
+
+// let newdiv00 = document.createElement('div')
+// div00.appendChild('newdiv00')
+// // newdiv00.classList.add('newdiv00')
+// div00.addEventListener('mouseover', function () {
+
+// })
+let forphotos = document.querySelector('.forphotos')
+
+let photos = [
+    {
+        pt: './images/image00.png',
+        text: 'WHISTLER MOUNTAIN BIKING',
+        txt: 'CYCLING'
+    },
+
+    {
+        pt: './images/image01.png',
+        text: 'SURF CAMP IN COSTA RICA',
+        txt: ' SURFING'
+    },
+    {
+        pt: './images/image02.png',
+        text: 'SKI TOURING MONT BLANC',
+        txt: 'SKIING'
+
+
+    },
+    {
+        pt: './images/image03.png',
+        text: 'RIVERSIDE CAMPING',
+        txt: 'CAMPING'
+    },
+
+
+]
+// for (let i of photos) {
+//     console.log(i)
+//     let div00 = document.createElement('div')
+//     forphotos.appendChild(div00)
+//     div00.classList.add('div00')
+// }
+let img2 = document.querySelector('.img2')
+for (let i = 0; i < photos.length; i++) {
+    let div00 = document.createElement('div')
+    forphotos.appendChild(div00)
+    div00.classList.add('div00')
+    let pt = document.createElement('img')
+    div00.appendChild(pt)
+    pt.src = photos[i].pt
+    let ptag = document.createElement('p')
+    div00.appendChild(ptag)
+    ptag.classList.add('text')
+    ptag.innerHTML = photos[i].text
+    let ptag2 = document.createElement('p')
+    div00.appendChild(ptag2)
+    ptag2.classList.add('txt')
+    ptag2.innerHTML = photos[i].txt
+
+
+    div00.addEventListener('mouseover', function () {
+        img2.style.backgroundImage = `url(${pt.src})`
+    })
+
+
+
+}
+
+let inp = document.querySelector('.inp')
+inp.addEventListener('click', function () {
+    alert('შეიყვანეთ თქვენი იმეილი')
+})
+
+let btn = document.querySelector('.btn')
+btn.addEventListener('click', function () {
+    alert('პირველ რიგში შეიყვანეთ თქვენი იმეილი')
+})
+
+
+
+
+let searchdiv = document.querySelector('.search2')
+let icon = document.querySelector('.photo2')
+
+icon.addEventListener('click', function () {
+    searchdiv.style.width = '200px'
+    searchdiv.placeholder = 'Search...'
+
+
+})
+
+let lst = document.querySelector('.lst')
+lst.addEventListener('mouseover', function () {
+    lst.style.color = 'red'
+    lst.addEventListener('mouseout', function () {
+        lst.style.color = 'black'
+    })
+})
+let lstf = document.querySelector('.lstf')
+lstf.addEventListener('mouseover', function () {
+    lstf.style.color = 'red'
+    lstf.addEventListener('mouseout', function () {
+        lstf.style.color = 'black'
+    })
+})
+let lsts = document.querySelector('.lsts')
+lsts.addEventListener('mouseover', function () {
+    lsts.style.color = 'red'
+    lsts.addEventListener('mouseout', function () {
+        lsts.style.color = 'black'
+    })
+})
+let lstt = document.querySelector('.lstt')
+lstt.addEventListener('mouseover', function () {
+    lstt.style.color = 'red'
+    lstt.addEventListener('mouseout', function () {
+        lstt.style.color = 'black'
+    })
+})

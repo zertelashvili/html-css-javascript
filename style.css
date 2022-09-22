@@ -2,29 +2,35 @@
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+  transition: 1s;
 }
+
 .container .black {
   width: 1920px;
   height: 40px;
   background-color: black;
   display: inline-block;
 }
+
 .container .black .header1 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
   margin-left: 30%;
 }
+
 .container .black .header1 .firstline {
   font-size: 16px;
   font-weight: bold;
   color: #909090;
   margin-left: 9px;
 }
+
 .container .black .header1 .photo {
   width: 20px;
   height: 20px;
 }
+
 .container .white {
   width: 1920px;
   height: 160px;
@@ -33,10 +39,12 @@
   align-items: center;
   position: relative;
 }
+
 .container .white .title {
   font-size: 48px;
   font-weight: bolder;
 }
+
 .container .white .list {
   width: 600px;
   height: 48px;
@@ -45,24 +53,32 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .container .white .list .lst1 {
   font-size: 14px;
   font-weight: bold;
 }
-.container .white .list .photo2 {
-  width: 21px;
-  height: 20px;
-  margin-top: 15px;
+
+.container .white .list .search1 {
+  width: 200px;
+  position: relative;
 }
-.container .white .list .search2 {
+
+.container .white .list .search1 .search2 {
   width: 60px;
   height: 48px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  background-color: #EBEBEB;
-  margin-left: 400%;
+  background-color: #EBEBEB !important;
+  transition: 1s;
 }
+
+.container .white .list .search1 .photo2 {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 21px;
+  height: 20px;
+}
+
 .container .img {
   background-image: url("./images/WKND-image.png");
   background-size: cover;
@@ -73,22 +89,26 @@
   align-items: flex-end;
   position: relative;
 }
+
 .container .img .adventure {
   width: 1400px;
   height: 246px;
   background-color: white;
 }
+
 .container .img .adventure .ptag1 {
   font-size: 40px;
   color: #202020;
   margin-top: 14px;
   margin-left: 40px;
 }
+
 .container .img .adventure .ptag2 {
   font-size: 20px;
   color: #202020;
   margin-left: 40px;
 }
+
 .container .img .adventure .yellow {
   width: 154px;
   height: 48px;
@@ -98,6 +118,7 @@
   margin-left: 40px;
   font-weight: bolder;
 }
+
 .container .img .newdiv {
   width: 440px;
   height: 440px;
@@ -108,13 +129,16 @@
   display: flex;
   justify-content: center;
 }
+
 .container .img .newdiv .singup {
   font-size: 26px;
 }
+
 .container .img .newdiv .inp1 {
   width: 300px;
   height: 50px;
 }
+
 .container .img .newdiv .newdiv2 {
   width: 440px;
   height: 400px;
@@ -123,16 +147,19 @@
   justify-content: center;
   align-items: center;
 }
+
 .container .img .newdiv .inp2 {
   width: 300px;
   height: 50px;
   margin-top: 20px;
 }
+
 .container .img .newdiv .inp3 {
   width: 300px;
   height: 50px;
   margin-top: 20px;
 }
+
 .container .img .newdiv .btn {
   width: 100px;
   height: 50px;
@@ -140,6 +167,7 @@
   margin-top: 20px;
   background-color: #EBEBEB;
 }
+
 .container .gray {
   width: 1200px;
   height: 487px;
@@ -147,47 +175,57 @@
   margin-top: 7%;
   margin-left: 20%;
 }
+
 .container .gray .gray2 {
   width: 500px;
   height: 487px;
   overflow: hidden;
   margin-left: 58.3%;
 }
+
 .container .gray .gray2 .move {
   width: 500px;
   height: 487px;
   display: flex;
   transition: 1s;
 }
+
 .container .gray .gray2 .move .pt1 {
   width: 500px;
   height: 487px;
 }
+
 .container .gray .txts {
   width: 700px;
   height: 487px;
   margin-top: -40.5%;
   margin-left: 5%;
 }
+
 .container .gray .txts .link {
   color: #202020;
 }
+
 .container .gray .txts .line {
   width: 84px;
   border: 2px solid #FFEA00;
   background-color: #FFEA00;
   margin-bottom: 10px;
 }
+
 .container .gray .txts .article1 {
   font-size: 36px;
   margin-top: 5%;
 }
+
 .container .gray .txts .smth {
   font-size: 24px;
 }
+
 .container .gray .txts .text {
   font-size: 14px;
 }
+
 .container .gray .txts .yellow2 {
   width: 200px;
   height: 48px;
@@ -197,49 +235,58 @@
   padding: 14px 39px 14px 60px;
   margin-top: 17%;
 }
+
 .container .btns {
   width: 50px;
   height: 50px;
   margin-top: 5%;
   margin-left: 80%;
 }
+
 .container .btns .left {
   width: 20px;
   height: 20px;
 }
+
 .container .btns .right {
   width: 20px;
   height: 20px;
 }
+
 .container .recent {
   width: 1920px;
   height: 487px;
   overflow: hidden;
 }
+
 .container .recent .title3 {
   font-size: 36px;
   margin-top: 72px;
   margin-left: 20%;
 }
+
 .container .recent .line2 {
   width: 84px;
   border: 2px solid #FFEA00;
   background-color: #FFEA00;
   margin-left: 20%;
 }
+
 .container .recent .move2 {
   width: 1800px;
   height: 400px;
   display: flex;
   -webkit-animation: photomove 4s linear infinite;
-          animation: photomove 4s linear infinite;
+  animation: photomove 4s linear infinite;
 }
+
 .container .recent .move2 .pt2 {
   margin-left: 10%;
   margin-top: 48px;
   width: 320px;
   height: 300px;
 }
+
 .container .line3 {
   width: 1200px;
   border: 2px solid #EBEBEB;
@@ -247,17 +294,20 @@
   margin-left: 20%;
   margin-top: 7%;
 }
+
 .container .nextadv {
   font-size: 36px;
   margin-top: 48px;
   margin-left: 20%;
 }
+
 .container .line4 {
   width: 84px;
   border: 2px solid #FFEA00;
   background-color: #FFEA00;
   margin-left: 20%;
 }
+
 .container .img2 {
   background-image: url("./images/image10.png");
   background-size: cover;
@@ -268,22 +318,26 @@
   justify-content: center;
   align-items: flex-end;
 }
+
 .container .img2 .white2 {
   width: 1400px;
   height: 246px;
   background-color: white;
 }
+
 .container .img2 .white2 .title2 {
   font-size: 40px;
   color: #202020;
   margin-top: 14px;
   margin-left: 40px;
 }
+
 .container .img2 .white2 .text2 {
   font-size: 20px;
   color: #202020;
   margin-left: 40px;
 }
+
 .container .img2 .white2 .yellow-2 {
   width: 154px;
   height: 48px;
@@ -292,6 +346,144 @@
   padding: 14px 16px 14px 40px;
   margin-left: 40px;
   font-weight: bolder;
+}
+
+.container .wdy {
+  font-size: 24px;
+  color: #707070;
+  margin-top: 72px;
+  margin-left: 20%;
+}
+
+.container .forphotos {
+  width: 1200px;
+  height: 230px;
+  display: flex;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+
+.container .forphotos .div00 {
+  width: 256px;
+  height: 250px;
+}
+
+.container .forphotos .div00 .text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.container .forphotos .div00 .txt {
+  font-size: 10px;
+  color: #909090;
+}
+
+.container .black2 {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 14px 40px 14px 47px;
+  margin-top: 6%;
+  margin-left: 20%;
+}
+
+.container .line5 {
+  width: 1200px;
+  border: 2px solid #EBEBEB;
+  background-color: #EBEBEB;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+.container .last {
+  width: 1200px;
+  height: 204px;
+  background-color: #F7F7F7;
+  margin-left: 20%;
+  margin-top: 7%;
+  display: flex;
+}
+
+.container .last .last2 {
+  width: 850px;
+  height: 204px;
+}
+
+.container .last .last2 .txt01 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.container .last .last2 .txt02 {
+  font-size: 14px;
+  margin-left: 40px;
+  color: #707070;
+}
+
+.container .last .last2 .inp {
+  margin-left: 40px;
+  width: 236px;
+  height: 48px;
+}
+
+.container .last .last2 .btn {
+  width: 150px;
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-left: 3%;
+  border-radius: 0;
+}
+
+.container .black3 {
+  height: 300px;
+  width: 1920px;
+  background-color: #202020;
+  margin-top: 9%;
+}
+
+.container .black3 .black4 {
+  width: 1920px;
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .black3 .black4 .title01 {
+  font-size: 48px;
+  color: #EBEBEB;
+}
+
+.container .black3 .black4 .pt01 {
+  width: 48px;
+  height: 48px;
+}
+
+.container .black3 .black4 .list2 {
+  width: 400px;
+  display: flex;
+}
+
+.container .black3 .black4 .list2 .lst2 {
+  color: #F7F7F7;
+  font-size: 14px;
+  margin-left: 7%;
+}
+
+.container .black3 .black4 .list2 .lst01 {
+  font-size: 14px;
+  color: #909090;
+  margin-left: 7%;
+}
+
+.container .black3 .bottom {
+  font-size: 14px;
+  color: #909090;
+  margin-left: 10%;
 }
 
 @-webkit-keyframes photomove {
@@ -304,4 +496,6 @@
   100% {
     transform: translateX(-2000px);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
