@@ -222,13 +222,18 @@ btn.addEventListener('click', function () {
 
 
 
-let searchdiv = document.querySelector('.search2')
-let icon = document.querySelector('.photo2')
+let inp0 = document.querySelector('.inp01')
+let icon = document.querySelector('.icon')
 
 icon.addEventListener('click', function () {
-    searchdiv.style.width = '200px'
-    searchdiv.placeholder = 'Search...'
+    if (inp0.placeholder === 'Search...') {
+        inp0.style.width = '60px'
+        inp0.placeholder = ''
+    } else {
+        inp0.style.width = '200px'
+        inp0.placeholder = 'Search...'
 
+    }
 
 })
 
